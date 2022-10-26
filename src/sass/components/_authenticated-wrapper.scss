@@ -1,0 +1,9 @@
+.authenticatedMainWrapper {
+    display: flex;
+    .sidemenuWrapper{
+        flex: 0 0 350px;
+    }
+    .authentictedContentWrapper{
+        flex: 1;
+    }
+}

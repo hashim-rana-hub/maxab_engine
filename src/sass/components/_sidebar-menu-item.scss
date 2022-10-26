@@ -1,0 +1,56 @@
+@import '../variable.scss';
+
+.sidebar {
+    .logo {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+
+.sidebarMenu {
+    margin-top: 24px;
+    .accordion {
+        outline: none;
+
+        .accordion-item {
+            border: none;
+
+            .accordion-button {
+                box-shadow: none;
+                background-color: #fff;
+            }
+
+            svg {
+                margin-right: 16px;
+            }
+
+            .title {
+                color: $primary-text;
+                text-transform: uppercase;
+            }
+
+            .accordion-body {
+                margin: 0;
+                padding: 0;
+
+                ul {
+                    li {
+                        color: $primary-text;
+                        padding-left: 30px;
+                        padding-top: 16px;
+                        text-transform: uppercase;
+
+                        &:first-child {
+                            padding-top: 0;
+                        }
+
+                        &:hover {
+                            background: $primary-hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
