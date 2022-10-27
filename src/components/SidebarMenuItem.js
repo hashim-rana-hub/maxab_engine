@@ -1,29 +1,25 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
-import { sidemenu_data } from "./sidemenu_data"
+import { SideMenuData } from "./SideMenuData"
 
 const SidebarMenuItem = () => {
     return (
         <div className='sidebarMenu'>
             {
-                sidemenu_data?.map((item, index) => {
-                    const Svg = item.svg
-                    return <Accordion>
-                        <Accordion.Item eventKey="0">
+                SideMenuData?.map((item, i) => {
+                    return <Accordion key={i}>
+                        <Accordion.Item>
                             <Accordion.Header>
                                 <div>
-                                    <Svg />
-                                    <span className='title' >   {item.title} </span>
+                                    {item.svg}
+                                    <span className='title' > {item.title} </span>
                                 </div>
                             </Accordion.Header>
                             <Accordion.Body>
-                                {console.log("list", item.list)}
                                 <ul>
-                                    {item.list?.map((options, index) => (
-                                        <li>
-                                            <a href= '#'>
-                                            {options}
-                                            </a>
+                                    {item.list?.map((options, i) => (
+                                        <li key={i}>
+                                            <a href= '#'> {options} </a>
                                         </li>
                                     ))}
                                 </ul>
@@ -32,7 +28,6 @@ const SidebarMenuItem = () => {
                     </Accordion>
                 })
             }
-
         </div>
     )
 }

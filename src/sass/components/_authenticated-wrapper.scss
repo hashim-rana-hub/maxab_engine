@@ -1,9 +1,10 @@
 .authenticatedMainWrapper {
     display: flex;
-    .sidemenuWrapper{
+    .sidebarMenuWrapper {
         flex: 0 0 350px;
+        max-width: 350px;
     }
-    .authentictedContentWrapper{
+    .authentictedContentWrapper {
         flex: 1;
     }
 }

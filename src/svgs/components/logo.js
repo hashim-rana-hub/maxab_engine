@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgLogo = (props) => (
+const MaxabLogo = (props) => (
   <svg
     width={67}
     height={32}
@@ -29,4 +29,4 @@ const SvgLogo = (props) => (
     </defs>
   </svg>
 );
-export default SvgLogo;
+export default MaxabLogo;

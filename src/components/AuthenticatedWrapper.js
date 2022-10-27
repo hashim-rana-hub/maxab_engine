@@ -1,20 +1,20 @@
 import React from 'react'
 import Header from './Header'
 import Offers from './Offers'
-import Sidebar from './Sidebar'
+import SideBarMenu from './SideBarMenu'
 
 const AuthenticatedWrapper = () => {
   return (
     <>
-    <div className='authenticatedMainWrapper'>
-        <div className='sidemenuWrapper'>
-            <Sidebar />
-        </div>
-        <div className='authentictedContentWrapper'>
-            <Header />
-            <Offers />
-        </div>
-    </div>
+      <div className='authenticatedMainWrapper'>
+          <div className='sidebarMenuWrapper'>
+              <SideBarMenu />
+          </div>
+          <div className='authentictedContentWrapper'>
+              <Header />
+              <Offers />
+          </div>
+      </div>
     </>
   )
 }

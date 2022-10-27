@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgCvmIcon = (props) => (
+const CvmIcon = (props) => (
   <svg
     width={24}
     height={24}
@@ -17,4 +17,4 @@ const SvgCvmIcon = (props) => (
     />
   </svg>
 );
-export default SvgCvmIcon;
+export default CvmIcon;

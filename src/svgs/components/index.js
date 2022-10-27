@@ -1,2 +1,2 @@
-export { default as CvmIcon } from "./cvm-icon";
-export { default as Logo } from "./logo";
+export { CvmIcon } from "./cvm-icon";
+export { Logo } from "./logo";
