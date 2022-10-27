@@ -35,16 +35,17 @@
                     ul {
                         li {
                             color: $primary-text;
+                            padding: 8px 0;
                             padding-left: 30px;
-                            padding-top: 16px;
                             text-transform: capitalize;
-
-                            &:first-child {
-                                padding-top: 0;
-                            }
 
                             &:hover {
                                 background: $primary-hover;
+                            }
+
+                            a{
+                                text-decoration: none;
+                                color: $primary-text;
                             }
                         }
                     }
