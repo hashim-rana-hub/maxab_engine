@@ -3,6 +3,9 @@
 .sidebar {
     padding-top: 32px;
     padding-left: 24px;
+    .logo {
+        cursor: pointer;
+    }
     .sidebarMenu {
         margin-top: 24px;
         .accordion {

@@ -5,7 +5,7 @@ import SidebarMenuItem from './SidebarMenuItem'
 const SideBarMenu = () => {
   return (
     <div className='sidebar'>
-      <div>
+      <div className='logo'>
         <MaxabLogo />
       </div>
       <div>
