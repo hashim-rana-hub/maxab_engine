@@ -1,0 +1,15 @@
+@import "./sass/components/authenticated-wrapper";
+@import "./sass/components/sidebar-menu-item";
+@import "./sass/variable.scss";
+body {
+    font-family: $primaryFont;
+}
+ul {
+    list-style: none;
+}
+li {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
