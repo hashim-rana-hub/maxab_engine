@@ -21,7 +21,9 @@ const SidebarMenuItem = () => {
                                 <ul>
                                     {item.list?.map((options, index) => (
                                         <li>
+                                            <a href= '#'>
                                             {options}
+                                            </a>
                                         </li>
                                     ))}
                                 </ul>
